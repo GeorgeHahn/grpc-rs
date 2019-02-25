@@ -54,6 +54,6 @@ secure = []
 openssl = ["secure"]
 
 [build-dependencies]
-cc = "1.0"
+cc = { git = "https://github.com/GeorgeHahn/cc-rs", branch = "default-flag-checking" }
 cmake = "0.1.27"
 pkg-config = "0.3"
